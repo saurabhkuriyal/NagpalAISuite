@@ -1,4 +1,3 @@
-"use client"
 import {
     Bars2Icon,
     ChevronDownIcon,
@@ -86,8 +85,8 @@ function ProfileMenu() {
                             key={label}
                             onClick={closeMenu}
                             className={`flex items-center gap-2 rounded ${isLastItem
-                                ? "hover:bg-red-500/10 focus:bg-red-500/10 active:bg-red-500/10"
-                                : ""
+                                    ? "hover:bg-red-500/10 focus:bg-red-500/10 active:bg-red-500/10"
+                                    : ""
                                 }`}
                         >
                             {React.createElement(icon, {
@@ -225,7 +224,7 @@ function NavList() {
     );
 }
 
-export function ComplexNavbar() {
+export default function ComplexNavbar() {
     const [isNavOpen, setIsNavOpen] = React.useState(false);
 
     const toggleIsNavOpen = () => setIsNavOpen((cur) => !cur);
