@@ -7,4 +7,4 @@ export default function Navbar() {
             <h1 className="text-xl font-bold">Nagpal Tour and Travel</h1>
         </nav>
     );
-}   
+}
