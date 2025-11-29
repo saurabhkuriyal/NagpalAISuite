@@ -25,7 +25,7 @@ export default function Page() {
     console.log('Form submitted:', formData);
     setSubmitted(true);
     setFormData({ name: '', email: '', message: '' });
-    
+
     // Reset success message after 3 seconds
     setTimeout(() => setSubmitted(false), 3000);
   };
