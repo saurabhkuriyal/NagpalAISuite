@@ -2,7 +2,9 @@
 export default function page() {
   return (
     <div>
-        <h1> Here is the about page</h1>
+        <h1>
+          It is the nagpal page
+        </h1>
     </div>
   )
 }
