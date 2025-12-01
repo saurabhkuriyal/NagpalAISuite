@@ -112,7 +112,7 @@ export default function Page() {
           </button>
         </form>
 
-        {/* Contact Info */}
+        {/* Contact Info  to be submitted*/}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
